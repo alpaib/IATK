@@ -3517,7 +3517,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  blendingModeSource: SrcAlpha
+  blendingModeSource: One
   blendingModeDestination: OneMinusSrcColor
   sizeDimension: Undefined
   linkingDimension: Undefined
@@ -5996,7 +5996,7 @@ Material:
     - _MinY: 0
     - _MinZ: 0
     - _MyDstMode: 6
-    - _MySrcMode: 5
+    - _MySrcMode: 1
     - _Size: 0.604
     - _Tween: 1
     - _TweenSize: 1
