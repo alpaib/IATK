@@ -1,0 +1,17 @@
+[
+  {
+    "producto": "Camiseta",
+    "color": "Azul",
+    "precio": 19.99
+  },
+  {
+    "producto": "Zapatos",
+    "color": "Negro",
+    "precio": 49.99
+  },
+  {
+    "producto": "Pantalones",
+    "color": "Gris",
+    "precio": 29.99
+  }
+]
