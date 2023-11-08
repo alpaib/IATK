@@ -19,8 +19,9 @@ public class ChangeVariable : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        #region detect dataset variables
         isIatkVisualisation = false;
+
+        #region detect dataset variables
 
         if (iatkDataSet != null)
         {
@@ -55,7 +56,7 @@ public class ChangeVariable : MonoBehaviour
     public void InstantiateIATK()
     {
         //Instanciamos el visualizador de datos de IATK
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Y) || Input.GetKeyDown(KeyCode.Z))
         {
             //Destruimos el visualizador IATK que haya
             if (NewIatkVisualisation != null)
@@ -77,7 +78,6 @@ public class ChangeVariable : MonoBehaviour
             Debug.Log("Objeto IATK asignado");
         }
     }
-
     public void AssignVariableX()
     {
         if (Input.GetKeyDown(KeyCode.X))
