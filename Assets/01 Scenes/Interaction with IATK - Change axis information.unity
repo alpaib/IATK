@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16161740863d599419d4e38b5bbe160a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 0}
+  data: {fileID: 4900000, guid: 8754fcb7ae982944aa856ab1c27622b9, type: 3}
   metadata: {fileID: 0}
 --- !u!4 &1316224225
 Transform:
@@ -379,7 +379,7 @@ MonoBehaviour:
   iatkDataSet: {fileID: 1316224223}
   iatkVisualisation: {fileID: 3189258357198086437, guid: 80f31e5b71df59647b3c18c09219eabf,
     type: 3}
-  isIatkVisualization: 0
+  variableNames: []
 --- !u!4 &2017482035
 Transform:
   m_ObjectHideFlags: 0

@@ -56,7 +56,7 @@ public class ChangeVariable : MonoBehaviour
     public void InstantiateIATK()
     {
         //Instanciamos el visualizador de datos de IATK
-        if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Y) || Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             //Destruimos el visualizador IATK que haya
             if (NewIatkVisualisation != null)
@@ -82,7 +82,7 @@ public class ChangeVariable : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X))
         {
-
+            NewIatkVisualisation.GetComponent<Visualisation>().xDimension.Attribute = variableNames[0];
         }
     }
     public void AssignVariableY()

@@ -524,10 +524,6 @@ namespace IATK
             destroyView();
 
         }
-
-        
-
-        
     }
 
 }   // Namespace
